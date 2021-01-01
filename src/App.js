@@ -1,21 +1,26 @@
 import './App.css';
-import Header from './components/Header.jsx';
-import NewsFeed from './components/NewsFeed.jsx';
-import Stats from './components/Stats.jsx'
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './routes/Home';
+import Signup from './routes/Signup';
+import Dashboard from './routes/Dashboard';
+import Login from './routes/Login';
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
-    <div className="app">
-      <div className="app__header">
-        <Header />
-      </div>
-      <div className="app__body">
-        <div className="app__container">
-          <NewsFeed />
-          <Stats />  
+        <div className="container">
+          <AuthProvider>
+            <Router>
+                <Switch>
+                <Route exact path='/' component={Home} />
+                <Route exact path='/signup' component={Signup} />
+                <Route exact path='/login' component={Login} />
+                <Route exact path='/account/:id' component={Dashboard} />
+                </Switch>
+            </Router>
+          </AuthProvider>  
         </div>
-      </div>
-    </div>
   );
 }
 

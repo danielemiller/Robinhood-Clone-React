@@ -1,17 +1,24 @@
 import firebase from 'firebase';
+import 'firebase/auth'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCWWOb6LBnkqDNbGlWpVFHJN0gaYqON9ro",
-    authDomain: "robinhood-447f0.firebaseapp.com",
-    projectId: "robinhood-447f0",
-    storageBucket: "robinhood-447f0.appspot.com",
-    messagingSenderId: "325004394934",
-    appId: "1:325004394934:web:287dbdd69102fab1fdc117",
-    measurementId: "G-FBDDLPPSYF"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
   };
-
-  const firebaseApp = firebase.initializeApp(firebaseConfig);
   
-  const db = firebaseApp.firestore();
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig);
+} else {
+  firebase.app(); // if already initialized, use that one
+}
 
-  export { db };
+const firebaseApp = firebase.app();
+  
+export const db = firebaseApp.firestore();
+export const auth = firebaseApp.auth()
+  

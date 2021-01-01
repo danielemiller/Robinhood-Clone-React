@@ -3,8 +3,6 @@ import SearchOutlined from "@material-ui/icons/SearchOutlined";
 import './Header.css';
 import Logo from '../assets/images/robinhood.svg';
 
-
-
 const Header = () => {
     return (
         <div className="header__wrapper">
@@ -22,7 +20,7 @@ const Header = () => {
                 <a href="/">Portfolio</a>
                 <a href="/">Cash</a>
                 <a href="/">Messages</a>
-                <a href="/">Account</a>
+                <a href="/Signup">Account</a>
             </div>
         </div>
     )

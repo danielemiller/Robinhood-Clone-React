@@ -1,0 +1,36 @@
+.card__container {
+    
+}
+
+.form {
+    display: grid;
+}
+
+.heading {
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.alert {
+    text-align: center;
+    margin: 2.5rem auto;
+}
+
+.signup__card {
+    /* border: 1px solid #fff; */
+}
+
+.form__group {
+    text-align: center;
+    display: grid;
+    margin: 1.5rem auto;  
+}
+
+.button {
+    margin: 2rem auto;
+}
+
+.signup__text {
+    width: 100%;
+    text-align: center;
+}
