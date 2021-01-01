@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Robinhood-Clone-React/static/css/main.835ef73e.chunk.css",
+    "main.js": "/Robinhood-Clone-React/static/js/main.1ffb8782.chunk.js",
+    "main.js.map": "/Robinhood-Clone-React/static/js/main.1ffb8782.chunk.js.map",
+    "runtime-main.js": "/Robinhood-Clone-React/static/js/runtime-main.0975d86a.js",
+    "runtime-main.js.map": "/Robinhood-Clone-React/static/js/runtime-main.0975d86a.js.map",
+    "static/js/2.a8f00c96.chunk.js": "/Robinhood-Clone-React/static/js/2.a8f00c96.chunk.js",
+    "static/js/2.a8f00c96.chunk.js.map": "/Robinhood-Clone-React/static/js/2.a8f00c96.chunk.js.map",
+    "index.html": "/Robinhood-Clone-React/index.html",
+    "static/css/main.835ef73e.chunk.css.map": "/Robinhood-Clone-React/static/css/main.835ef73e.chunk.css.map",
+    "static/js/2.a8f00c96.chunk.js.LICENSE.txt": "/Robinhood-Clone-React/static/js/2.a8f00c96.chunk.js.LICENSE.txt",
+    "static/media/robinhood.d4c5626b.svg": "/Robinhood-Clone-React/static/media/robinhood.d4c5626b.svg",
+    "static/media/stock.ef9ad219.svg": "/Robinhood-Clone-React/static/media/stock.ef9ad219.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0975d86a.js",
+    "static/js/2.a8f00c96.chunk.js",
+    "static/css/main.835ef73e.chunk.css",
+    "static/js/main.1ffb8782.chunk.js"
+  ]
+}
