@@ -63,7 +63,7 @@ const UpdateAccountInfoCard = () => {
                 </Card.Body>
             </Card>
             <div className='login__text'>
-                <Link to='/dasboard'>Cancel</Link>
+                <Link to='/dashboard'>Cancel</Link>
             </div>
         </div>
     )
