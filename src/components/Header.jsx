@@ -17,11 +17,11 @@ const Header = () => {
                 </div>
             </div>
             <div className="header__menuItems">
-                <a href="/">Free Stocks</a>
-                <a href="/">Portfolio</a>
-                <a href="/">Cash</a>
-                <a href="/">Messages</a>
-                <a href="/Signup">Account</a>
+                <a href="/dashboard">Free Stocks</a>
+                <a href="/dashboard">Portfolio</a>
+                <a href="/dashboard">Cash</a>
+                <a href="/dashboard">Messages</a>
+                <a href="/Login">Account</a>
             </div>
         </div>
     )
