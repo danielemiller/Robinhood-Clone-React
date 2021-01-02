@@ -3,11 +3,12 @@ import SearchOutlined from "@material-ui/icons/SearchOutlined";
 import './Header.css';
 import Logo from '../assets/images/robinhood.svg';
 
+
 const Header = () => {
     return (
         <div className="header__wrapper">
             <div className="header__logo">
-              <img src={Logo} width={25} />
+              <a href='/'><img src={Logo} width={25} /></a>
             </div>
             <div className="header__search">
                 <div className="header__searchContainer">
