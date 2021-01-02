@@ -31,7 +31,7 @@ const DashboardCard = () => {
             </Card.Body>  
           </Card>  
           <div className='signup__text'>
-            <Button variant='link' onClick={handleLogout}>Log Out</Button>
+            <Button variant='link' onClick={handleLogout} className='button'>Log Out</Button>
           </div>
         </div>
     )
