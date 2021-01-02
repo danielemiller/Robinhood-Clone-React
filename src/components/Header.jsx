@@ -21,7 +21,7 @@ const Header = () => {
                 <a href="/dashboard">Portfolio</a>
                 <a href="/dashboard">Cash</a>
                 <a href="/dashboard">Messages</a>
-                <a href="/Login">Account</a>
+                <a href="/login">Account</a>
             </div>
         </div>
     )
