@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.835ef73e.chunk.css",
-    "main.js": "/static/js/main.1ffb8782.chunk.js",
-    "main.js.map": "/static/js/main.1ffb8782.chunk.js.map",
+    "main.css": "/static/css/main.051ed1f5.chunk.css",
+    "main.js": "/static/js/main.47ff5fdd.chunk.js",
+    "main.js.map": "/static/js/main.47ff5fdd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ef2ab544.js",
     "runtime-main.js.map": "/static/js/runtime-main.ef2ab544.js.map",
     "static/js/2.42eddccc.chunk.js": "/static/js/2.42eddccc.chunk.js",
     "static/js/2.42eddccc.chunk.js.map": "/static/js/2.42eddccc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.835ef73e.chunk.css.map": "/static/css/main.835ef73e.chunk.css.map",
+    "static/css/main.051ed1f5.chunk.css.map": "/static/css/main.051ed1f5.chunk.css.map",
     "static/js/2.42eddccc.chunk.js.LICENSE.txt": "/static/js/2.42eddccc.chunk.js.LICENSE.txt",
-    "static/media/robinhood.d4c5626b.svg": "/static/media/robinhood.d4c5626b.svg",
-    "static/media/stock.ef9ad219.svg": "/static/media/stock.ef9ad219.svg"
+    "static/media/robinhood.e6522d76.svg": "/static/media/robinhood.e6522d76.svg",
+    "static/media/stock.ae786923.svg": "/static/media/stock.ae786923.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ef2ab544.js",
     "static/js/2.42eddccc.chunk.js",
-    "static/css/main.835ef73e.chunk.css",
-    "static/js/main.1ffb8782.chunk.js"
+    "static/css/main.051ed1f5.chunk.css",
+    "static/js/main.47ff5fdd.chunk.js"
   ]
 }
